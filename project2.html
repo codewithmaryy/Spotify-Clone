@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project2.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+    </style>
+
+    
+
+</head>
+
+<body>
+    <div class="main">
+        <nav class="flex">
+            <img class="firstimg"
+                src="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_White.png"
+                jsaction="" class="sFlh5c FyHeAf iPVvYb" style="max-width: 939px; height: 31px;  width: 40px;"
+                alt="Logo and Brand Assets — Spotify" jsname="kn3ccd" aria-hidden="false">
+            <div class="flex">
+                <button class="home"  >
+                    <img class="secondimg" src="logo.svg" alt="" srcset="">
+                </button>
+                <div class="search-bar">
+                    <span class="search-icon"  style="color: rgb(174 174 174);" > <svg xmlns="http://www.w3.org/2000/svg"    data-encore-id="icon" role="img"
+                            aria-hidden="true" class="e-9640-icon M9l40ptEBXPm03dU3X1k" data-testid="search-icon"
+                            viewBox="0 0 24 24"
+                            style="--encore-icon-height: var(--encore-graphic-size-decorative-larger-3); --encore-icon-width: var(--encore-graphic-size-decorative-larger-3);  fill: currentColor; "    >
+                            <path
+                                d="M10.533 1.27893C5.35215 1.27893 1.12598 5.41887 1.12598 10.5579C1.12598 15.697 5.35215 19.8369 10.533 19.8369C12.767 19.8369 14.8235 19.0671 16.4402 17.7794L20.7929 22.132C21.1834 22.5226 21.8166 22.5226 22.2071 22.132C22.5976 21.7415 22.5976 21.1083 22.2071 20.7178L17.8634 16.3741C19.1616 14.7849 19.94 12.7634 19.94 10.5579C19.94 5.41887 15.7138 1.27893 10.533 1.27893ZM3.12598 10.5579C3.12598 6.55226 6.42768 3.27893 10.533 3.27893C14.6383 3.27893 17.94 6.55226 17.94 10.5579C17.94 14.5636 14.6383 17.8369 10.533 17.8369C6.42768 17.8369 3.12598 14.5636 3.12598 10.5579Z">
+                            </path>
+                        </svg> </span>
+                    <input type="text" class="search-input" placeholder="What do you want to listen to?">
+                    <span class="divider" style="color: rgb(174 174 174);"  ></span>
+                    <span class="browse-icon"  style="color: rgb(174 174 174);"  ><svg xmlns="http://www.w3.org/2000/svg" data-encore-id="icon" role="img"  style="color: currentColor;"
+                            aria-hidden="true" class="e-9640-icon" viewBox="0 0 24 24">
+                            <path
+                                d="M4 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v4H4V2zM1.513 9.37A1 1 0 0 1 2.291 9H21.71a1 1 0 0 1 .978 1.208l-2.17 10.208A2 2 0 0 1 18.562 22H5.438a2 2 0 0 1-1.956-1.584l-2.17-10.208a1 1 0 0 1 .201-.837zM12 17.834c1.933 0 3.5-1.044 3.5-2.333 0-1.289-1.567-2.333-3.5-2.333S8.5 14.21 8.5 15.5c0 1.289 1.567 2.333 3.5 2.333z">
+                            </path>
+                        </svg> </span>
+                </div>
+
+
+            </div>
+            <div class="flex2">
+                <button  >Explore Premium</button>
+
+
+
+            </div>
+            <a class="install" href="/download">
+                <span class="icon"  style="color: rgb(174 174 174);" > <svg data-encore-id="icon"  style="fill: currentColor;"    role="img" aria-hidden="true" class="e-9640-icon"
+                        viewBox="0 0 16 16" var">
+                        <path
+                            d="M4.995 8.745a.75.75 0 0 1 1.06 0L7.25 9.939V4a.75.75 0 0 1 1.5 0v5.94l1.195-1.195a.75.75 0 1 1 1.06 1.06L8 12.811l-.528-.528a.945.945 0 0 1-.005-.005L4.995 9.805a.75.75 0 0 1 0-1.06z">
+                        </path>
+                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13z">
+                        </path>
+                    </svg> </span>
+                <span class="icon2" style="color: rgb(174 174 174);" >Install App</span>
+            </a>
+            <button class="bell" style="color: rgb(174 174 174);" > <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                    viewBox="0 0 16 16"
+                    style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller); fill: currentColor; ">
+                    <path
+                        d="M8 1.5a4 4 0 0 0-4 4v3.27a.75.75 0 0 1-.1.373L2.255 12h11.49L12.1 9.142a.75.75 0 0 1-.1-.374V5.5a4 4 0 0 0-4-4zm-5.5 4a5.5 5.5 0 0 1 11 0v3.067l2.193 3.809a.75.75 0 0 1-.65 1.124H10.5a2.5 2.5 0 0 1-5 0H.957a.75.75 0 0 1-.65-1.124L2.5 8.569V5.5zm4.5 8a1 1 0 1 0 2 0H7z">
+                    </path>
+                </svg> </button>
+
+            <button class="li">Log in</button>
+
+
+        </nav>
+    </div>
+    <div class="container">
+        <div class="right"  style="background-color: #121212   " >
+            <div class="rightnav">
+                <span  style="color: rgb(174 174 174);" >
+                    <svg style="width: 27px;  fill: currentColor; " data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M3 22a1 1 0 0 1-1-1V3a1 1 0 0 1 2 0v18a1 1 0 0 1-1 1zM15.5 2.134A1 1 0 0 0 14 3v18a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V6.464a1 1 0 0 0-.5-.866l-6-3.464zM9 2a1 1 0 0 0-1 1v18a1 1 0 1 0 2 0V3a1 1 0 0 0-1-1z">
+                        </path>
+                    </svg>
+                </span>
+                <span style="padding-left: 7px;">Your Library</span>
+                <button style="margin-left: 102px;
+                width: 32px;
+                background: transparent;
+                border: none;  color: rgb(174 174 174);    ">
+                    <svg data-encore-id="icon" role="img" aria-hidden="true" class="e-9640-icon" viewBox="0 0 16 16"
+                        style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller); fill: currentColor; ">
+                        <path
+                            d="M15.25 8a.75.75 0 0 1-.75.75H8.75v5.75a.75.75 0 0 1-1.5 0V8.75H1.5a.75.75 0 0 1 0-1.5h5.75V1.5a.75.75 0 0 1 1.5 0v5.75h5.75a.75.75 0 0 1 .75.75z">
+                        </path>
+                    </svg>
+                </button>
+                <button  style="width: 31px;
+                margin-left: 15px;
+                background: transparent;
+                border: none; color: rgb(174 174 174); "
+                >
+                    <svg data-encore-id="icon" role="img" aria-hidden="true"
+                        class="e-9640-icon e-9640-icon--auto-mirror" viewBox="0 0 16 16"
+                        style="--encore-icon-height: var(--encore-graphic-size-decorative-smaller); --encore-icon-width: var(--encore-graphic-size-decorative-smaller); fill: currentColor; ">
+                        <path
+                            d="M7.19 1A.749.749 0 0 1 8.47.47L16 7.99l-7.53 7.521a.75.75 0 0 1-1.234-.815.75.75 0 0 1 .174-.243l5.72-5.714H.75a.75.75 0 1 1 0-1.498h12.38L7.41 1.529a.749.749 0 0 1-.22-.53z">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+            <div class="firstinner"  style="background-color: #1f1f1f;" >
+                <h4>Create your first playlist</h4>
+                <p>It's easy, we'll help you</p>
+                <button class="cp">Create Playlist</button>
+            </div>
+            <div class="secondinner"  style="background-color: #1f1f1f;" >
+                <h4>Let's find some podcast to <br> follow</h4>
+                <p>We'll keep you updated on new <br> episodes</p>
+                <button class="cp">Browse podcasts</button>
+            </div>
+        </div>
+        <div class="left" style="background-color: #161616;"  >
+            <button class="all">all</button>
+            <button   style="background-color: #383838;  color: white; " class="music">music</button>
+<div class="album-section" id="section1">
+            <div class="prsm">
+                <h2 class="pr">Popular Radio</h2>
+                <a class="show-all-link" href="#"   data-target="panel1" data-src="all1.html"  style="margin-right: 59px; margin-top: 42px; text-decoration: none;">Show
+                    all</a>
+
+            </div>
+            <div class="right-panel"  id="panel1"  >
+                <div class="wrapper">
+                    <div class="cardcontainer">
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02ce547db64b0ec462ff9810f4" alt=""
+                                srcset="">
+                            <button class="spotify-button"  data-src="songs/islamic-hamd-naat-275446.mp3" >
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c8b8407aa0ceefdb52dc862f0"
+                                alt="" srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021ef3e7515354097b220d8fbc" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026f63291712434d7995f05c0c" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0248d25462c1e7ac08d50c0194" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0248d25462c1e7ac08d50c0194" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                    </div>
+
+</div>
+            </div>
+        </div>
+        <div class="album-section" id="section1">
+<div class="prsm">
+                <h2 class="pr">Discover picks for you</h2>
+                <a class="show-all-link" href="#" data-target="panel2"  data-src="all2.html" style="margin-right: 59px; margin-top: 42px; text-decoration: none;">Show
+                    all</a>
+
+            </div>
+            <div class="right-panel" id="panel2"  >
+                <div class="wrapper">
+                    <div class="cardcontainer">
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02ce547db64b0ec462ff9810f4" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c8b8407aa0ceefdb52dc862f0"
+                                alt="" srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021ef3e7515354097b220d8fbc" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026f63291712434d7995f05c0c" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        
+
+                        
+                    </div>                    
+                </div>
+            </div>
+
+            <div class="album-section" id="section1">
+            <div class="prsm">
+                <h2 class="pr">Popular albumb and singles</h2>
+                <a class="show-all-link" href="#"   data-target="panel1" data-src="all1.html"  style="margin-right: 59px; margin-top: 42px; text-decoration: none;">Show
+                    all</a>
+
+            </div>
+            <div class="right-panel"  id="panel1"  >
+                <div class="wrapper">
+                    <div class="cardcontainer">
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e02ce547db64b0ec462ff9810f4" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000d72c8b8407aa0ceefdb52dc862f0"
+                                alt="" srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e021ef3e7515354097b220d8fbc" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e026f63291712434d7995f05c0c" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0248d25462c1e7ac08d50c0194" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="https://i.scdn.co/image/ab67616d00001e0248d25462c1e7ac08d50c0194" alt=""
+                                srcset="">
+                            <button class="spotify-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" fill="none" />
+                                </svg>
+                            </button>
+                            <h4>Naseed Islamic</h4>
+                            <p>By talxa</p>
+                        </div>
+                    </div>
+
+</div>
+            </div>
+        </div>
+
+        </div>
+        </div>
+    </div>
+    <audio id="audioPlayer" controls style="display: none;"></audio>
+
+<footer class="footer-player" id="footerPlayer" style="display: none;">
+  <div class="footer-left">
+    <img src="" alt="Album Cover" id="footerImg">
+    <div class="footer-text">
+      <h4 id="footerTitle">Title</h4>
+      <p id="footerArtist">Artist</p>
+    </div>
+  </div>
+
+  <div class="footer-center"    >
+    <div class="footer-controls">
+      <button id="prevBtn"   style="color: rgb(79 79 79) ;"  > <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"  viewBox="0 0 24 24" stroke-width="1.5"  stroke="currentColor"  class="size-6" style="width: 32px;"  >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061A1.125 1.125 0 0 1 21 8.689v8.122ZM11.25 16.811c0 .864-.933 1.406-1.683.977l-7.108-4.061a1.125 1.125 0 0 1 0-1.954l7.108-4.061a1.125 1.125 0 0 1 1.683.977v8.122Z" />
+</svg>
+</button>
+      <button id="playPauseBtn"  style="color: rgb(79 79 79) ;" >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"  style="width: 32px;  "  >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25v13.5m-7.5-13.5v13.5" />
+</svg>
+
+</button>
+      <button id="nextBtn" style="color: rgb(79 79 79) ;"   >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6"  style="width: 32px;" >
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061A1.125 1.125 0 0 1 3 16.811V8.69ZM12.75 8.689c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061a1.125 1.125 0 0 1-1.683-.977V8.69Z" />
+</svg>
+
+      </button>
+    </div>
+    <input type="range" id="progressBar" value="0" min="0" max="100">
+  </div>
+
+  <div class="footer-right">
+    <input type="range" id="volumeControl" min="0" max="1" step="0.01">
+  </div>
+</footer>
+
+<audio id="audioPlayer"></audio>
+
+
+
+<script>
+   document.addEventListener('DOMContentLoaded', function () {
+    const showAllLinks = document.querySelectorAll('.show-all-link');
+
+    showAllLinks.forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('data-target');
+            const fileToLoad = this.getAttribute('data-src');
+
+            // Hide all album sections (both heading and cards)
+            document.querySelectorAll('.album-section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            const targetPanel = document.getElementById(targetId);
+            const section = targetPanel.closest('.album-section'); // this is important
+
+            fetch(fileToLoad)
+                .then(response => response.text())
+                .then(data => {
+                    targetPanel.innerHTML = `
+                        <div class="wrapper">
+                            <div class="cardcontainer" style="display: flex; flex-wrap: wrap; gap: 13px; margin-left: 13px;">
+                                ${data}
+                            </div>
+                        </div>
+                    `;
+                    section.style.display = 'block'; // Show both heading and panel
+                })
+                .catch(error => {
+                    console.error('Failed to load content:', error);
+                    targetPanel.innerHTML = '<p style="color:red;">Failed to load cards.</p>';
+                    section.style.display = 'block';
+                });
+        });
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const audioPlayer = document.getElementById('audioPlayer');
+
+    // Delegate click events to play buttons
+    document.body.addEventListener('click', function (e) {
+        if (e.target.closest('.spotify-button')) {
+            const button = e.target.closest('.spotify-button');
+            const src = button.getAttribute('data-src');
+
+            if (src) {
+                audioPlayer.src = src;
+                audioPlayer.style.display = 'block';
+                audioPlayer.play().catch(error => {
+                    console.error('Audio playback failed:', error);
+                });
+            } else {
+                console.warn('No data-src found on button');
+            }
+        }
+    });
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const audio = document.getElementById('audioPlayer');
+  const playBtn = document.getElementById('playPauseBtn');
+  const progress = document.getElementById('progressBar');
+  const volume = document.getElementById('volumeControl');
+  const footer = document.getElementById('footerPlayer');
+
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('.spotify-button')) {
+      const btn = e.target.closest('.spotify-button');
+      const src = btn.getAttribute('data-src');
+
+      if (!src) return;
+
+      // Get image and title
+      const card = btn.closest('.card');
+      const img = card.querySelector('img').src;
+      const title = card.querySelector('h4')?.textContent || '';
+      const artist = card.querySelector('p')?.textContent || '';
+
+      // Update footer
+      document.getElementById('footerImg').src = img;
+      document.getElementById('footerTitle').textContent = title;
+      document.getElementById('footerArtist').textContent = artist;
+
+      // Show footer and play
+      footer.style.display = 'flex';
+      audio.src = src;
+      audio.play();
+      const svgPath = playBtn.querySelector('path');
+svgPath.setAttribute("d", "M15.75 5.25v13.5m-7.5-13.5v13.5"); // Pause icon path
+;
+    }
+  });
+
+  playBtn.addEventListener('click', function () {
+    if (audio.paused) {
+      audio.play();
+      const svgPath = playBtn.querySelector('path');
+svgPath.setAttribute("d", "M15.75 5.25v13.5m-7.5-13.5v13.5"); // Pause icon path
+;
+    } else {
+      audio.pause();
+      svgPath.setAttribute("d", "M5.25 5.25l13.5 6.75-13.5 6.75"); // Play icon path
+;
+    }
+  });
+
+  // Progress bar
+  audio.addEventListener('timeupdate', function () {
+    const percent = (audio.currentTime / audio.duration) * 100;
+    progress.value = percent || 0;
+  });
+
+  progress.addEventListener('input', function () {
+    audio.currentTime = (progress.value / 100) * audio.duration;
+  });
+
+  // Volume control
+  volume.addEventListener('input', function () {
+    audio.volume = volume.value;
+  });
+});
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
